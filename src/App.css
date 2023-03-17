@@ -1,0 +1,75 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Roboto;
+}
+/* .globalContainer {
+  background-color: grey;
+} */
+
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  gap: 30px;
+  object-fit: cover;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.ratingText {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.dogContainer {
+  box-shadow: 5px 5px 40px 20px rgba(0, 0, 0, 0.418);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.479);
+  padding: 30px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.likeDislikeBtn {
+  margin-top: 30px;
+  display: flex;
+  gap: 150px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
